@@ -1,0 +1,22 @@
+.body {
+  margin: 0 auto;
+  background: #fff;
+  width: 100vw;
+  font: 11px menlo;
+  color: #707070;
+}
+
+.default {
+  composes: body;
+}
+
+.centered {
+  composes: body;
+  height: 100vh;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background: #fff;
+}
